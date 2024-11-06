@@ -8,7 +8,10 @@ function jio(x) {
   }
 }
 jio(-6); //invaild no
+jio(8)
+jio(7)
 
+///////////////////////////////////////////////////////////////////////
 function jio1(y) {
   var b = "";
   for (i = y.length - 1; i >= 0; i--) {
@@ -23,6 +26,7 @@ function jio1(y) {
 jio1("mom");
 jio1("daddy");
 jio1("sis");
+///////////////////////////////////////////////////////////////////////////
 function jio2(a, b, c) {
   if (a > b && a > c) {
     console.log(`${a} is greater`);
